@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consulta de Calificaciones · Termodinámica I</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy-900:#0F2A47;
+    --navy-800:#1F4E79;
+    --navy-700:#2C6293;
+    --navy-100:#E7EEF5;
+    --slate-50:#F5F7FA;
+    --white:#FFFFFF;
+    --border:#DCE3EA;
+    --border-strong:#B9C5D0;
+    --text-900:#182430;
+    --text-600:#5B6A78;
+    --text-400:#8B96A1;
+    --amber-600:#B07A22;
+    --amber-100:#FBF1DF;
+    --green-700:#2A7A54;
+    --green-100:#E6F4ED;
+    --red-700:#B03A2E;
+    --red-100:#FBEAE7;
+    --radius:10px;
+    --shadow:0 1px 2px rgba(15,42,71,0.06), 0 4px 14px rgba(15,42,71,0.06);
+    --font-display:'Fraunces', Georgia, serif;
+    --font-body:'Inter', system-ui, -apple-system, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:var(--font-body);
+    background:var(--slate-50);
+    color:var(--text-900);
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  button{font-family:inherit;}
+  .app{min-height:100vh;display:flex;flex-direction:column;}
+
+  /* ---------- Top bar ---------- */
+  .topbar{
+    background:linear-gradient(180deg, var(--navy-800), var(--navy-900));
+    color:#fff;
+    padding:18px 24px;
+  }
+  .topbar-inner{
+    max-width:880px;margin:0 auto;
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+  }
+  .topbar-title{
+    font-family:var(--font-display);
+    font-weight:600;
+    font-size:1.25rem;
+    letter-spacing:0.01em;
+  }
+  .topbar-meta{
+    font-size:0.82rem;
+    color:var(--navy-100);
+    text-align:right;
+    line-height:1.5;
+  }
+  .topbar-meta b{color:#fff;font-weight:600;}
+
+  main{flex:1;padding:32px 20px 60px;}
+  .container{max-width:880px;margin:0 auto;}
+
+  .hidden{display:none !important;}
+
+  /* ---------- Cards ---------- */
+  .card{
+    background:var(--white);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+  }
+
+  /* ---------- Login screen ---------- */
+  .login-card{padding:40px 36px;max-width:560px;margin:20px auto 0;}
+  .logo-row{
+    display:flex;align-items:center;justify-content:space-between;gap:20px;
+    margin-bottom:28px;
+  }
+  .logo-slot{
+    width:88px;height:88px;border-radius:8px;
+    border:1.5px dashed var(--border-strong);
+    display:flex;align-items:center;justify-content:center;
+    text-align:center;font-size:0.68rem;color:var(--text-400);
+    line-height:1.3;flex-shrink:0;background:var(--slate-50);
+    padding:4px;
+  }
+  .login-precarga{
+    flex:1;text-align:center;
+  }
+  .login-precarga .materia{
+    font-family:var(--font-display);
+    font-size:1.15rem;font-weight:600;color:var(--navy-900);
+  }
+  .login-precarga .sub{
+    margin-top:2px;font-size:0.85rem;color:var(--text-600);
+  }
+  .login-form label{
+    display:block;font-size:0.85rem;font-weight:600;color:var(--text-900);
+    margin-bottom:8px;
+  }
+  .login-form input{
+    width:100%;padding:12px 14px;border:1.5px solid var(--border-strong);
+    border-radius:8px;font-size:1rem;font-family:inherit;color:var(--text-900);
+    background:var(--white);
+  }
+  .login-form input:focus{outline:2px solid var(--navy-700);outline-offset:1px;border-color:var(--navy-700);}
+  .login-help{font-size:0.78rem;color:var(--text-400);margin-top:8px;}
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:12px 22px;border-radius:8px;border:none;
+    font-size:0.95rem;font-weight:600;cursor:pointer;
+    transition:background 0.15s ease;
+  }
+  .btn-primary{background:var(--navy-800);color:#fff;}
+  .btn-primary:hover{background:var(--navy-700);}
+  .btn-block{width:100%;margin-top:20px;}
+  .btn-ghost{background:transparent;color:var(--navy-800);border:1.5px solid var(--border-strong);}
+  .btn-ghost:hover{border-color:var(--navy-800);}
+  .error-msg{
+    margin-top:14px;padding:10px 14px;border-radius:8px;
+    background:var(--red-100);color:var(--red-700);
+    font-size:0.85rem;font-weight:500;
+  }
+
+  /* ---------- Overview screen ---------- */
+  .ov-header{
+    display:flex;justify-content:space-between;align-items:flex-start;
+    gap:20px;flex-wrap:wrap;margin-bottom:22px;
+  }
+  .ov-student h1{
+    font-family:var(--font-display);font-size:1.5rem;font-weight:600;
+    margin:0 0 4px;color:var(--navy-900);
+  }
+  .ov-student .carrera{font-size:0.9rem;color:var(--text-600);}
+  .ov-stats{display:flex;gap:22px;}
+  .ov-stat{text-align:right;}
+  .ov-stat .label{font-size:0.72rem;text-transform:uppercase;letter-spacing:0.04em;color:var(--text-400);}
+  .ov-stat .value{font-family:var(--font-display);font-size:1.2rem;font-weight:600;color:var(--text-900);}
+  .ov-stat .value.warn{color:var(--red-700);}
+
+  .section-label{
+    font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;
+    color:var(--text-600);margin:28px 0 12px;
+  }
+  .section-label:first-child{margin-top:0;}
+
+  .parcial-grid{
+    display:grid;grid-template-columns:repeat(5,1fr);gap:12px;
+  }
+  .parcial-box{
+    padding:16px 10px;text-align:center;cursor:pointer;
+    transition:border-color 0.15s ease, transform 0.1s ease;
+  }
+  .parcial-box:hover{border-color:var(--navy-700);transform:translateY(-1px);}
+  .parcial-box .pnum{font-size:0.78rem;font-weight:700;color:var(--text-600);margin-bottom:8px;}
+  .parcial-box .pval{font-family:var(--font-display);font-size:1.35rem;font-weight:600;color:var(--navy-900);}
+  .parcial-box .pval.pending{font-size:0.82rem;font-weight:500;color:var(--text-400);font-family:var(--font-body);}
+  .parcial-box .ptema{font-size:0.68rem;color:var(--text-400);margin-top:6px;line-height:1.3;min-height:2.6em;}
+
+  .weights-grid{display:grid;gap:12px;}
+  .weight-box{
+    padding:16px 18px;display:flex;justify-content:space-between;align-items:center;
+  }
+  .weight-box .wname{font-size:0.9rem;font-weight:600;color:var(--text-900);}
+  .weight-box .wpct{font-size:0.78rem;color:var(--text-400);}
+  .weight-box .wval{font-family:var(--font-display);font-size:1.25rem;font-weight:600;color:var(--navy-900);}
+
+  .final-card{
+    margin-top:14px;padding:22px 24px;
+    background:var(--amber-100);border-color:#E9D3A8;
+    display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;
+  }
+  .final-card .fname{font-size:0.95rem;font-weight:700;color:var(--text-900);}
+  .final-card .fnote{font-size:0.76rem;color:var(--text-600);margin-top:3px;}
+  .final-card .fval{font-family:var(--font-display);font-size:2rem;font-weight:700;color:var(--amber-600);}
+
+  .back-row{margin-top:30px;display:flex;justify-content:flex-end;}
+
+  /* ---------- Detail screen ---------- */
+  .detail-topline{
+    display:flex;justify-content:space-between;align-items:center;margin-bottom:22px;flex-wrap:wrap;gap:10px;
+  }
+  .detail-topline h1{
+    font-family:var(--font-display);font-size:1.35rem;font-weight:600;color:var(--navy-900);margin:0;
+  }
+  .detail-topline .tema{font-size:0.85rem;color:var(--text-600);margin-top:3px;}
+
+  .detail-grid{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:14px;align-items:start;
+  }
+  .detail-box{padding:18px 16px;}
+  .detail-box .dname{font-size:0.85rem;font-weight:700;color:var(--text-900);}
+  .detail-box .dpct{font-size:0.72rem;color:var(--text-400);margin-bottom:10px;}
+  .detail-box .dval{font-family:var(--font-display);font-size:1.5rem;font-weight:600;color:var(--navy-900);}
+  .detail-box .dval.pending{font-size:0.8rem;font-family:var(--font-body);font-weight:500;color:var(--text-400);}
+
+  .expand-toggle{
+    margin-top:12px;background:none;border:none;padding:0;
+    font-size:0.76rem;color:var(--navy-800);font-weight:600;cursor:pointer;
+    display:flex;align-items:center;gap:4px;
+  }
+  .expand-toggle .chev{transition:transform 0.15s ease;}
+  .expand-toggle.open .chev{transform:rotate(90deg);}
+  .expand-list{list-style:none;margin:10px 0 0;padding:0;border-top:1px solid var(--border);display:none;}
+  .expand-list.open{display:block;}
+  .expand-list li{
+    display:flex;justify-content:space-between;gap:8px;
+    padding:8px 0;border-bottom:1px dotted var(--border);
+    font-size:0.76rem;
+  }
+  .expand-list li:last-child{border-bottom:none;}
+  .expand-list .iname{color:var(--text-600);flex:1;}
+  .expand-list .ival{font-weight:700;color:var(--text-900);flex-shrink:0;}
+
+  .subexam-list{margin-top:10px;border-top:1px solid var(--border);padding-top:10px;}
+  .subexam-list .row{display:flex;justify-content:space-between;font-size:0.76rem;padding:4px 0;}
+  .subexam-list .row .n{color:var(--text-600);}
+  .subexam-list .row .v{font-weight:700;color:var(--text-900);}
+
+  footer{text-align:center;padding:18px;font-size:0.72rem;color:var(--text-400);}
+
+  @media (max-width:720px){
+    .parcial-grid{grid-template-columns:repeat(2,1fr);}
+    .detail-grid{grid-template-columns:repeat(2,1fr);}
+    .ov-header{flex-direction:column;}
+    .ov-stats{gap:14px;}
+    .login-card{padding:28px 20px;}
+    .logo-row{gap:10px;}
+    .logo-slot{width:64px;height:64px;font-size:0.6rem;}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-title">Consulta de Calificaciones</div>
+      <div class="topbar-meta" id="topbar-meta"></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="container">
+
+      <!-- ===================== LOGIN ===================== -->
+      <section id="screen-login">
+        <div class="card login-card">
+          <div class="logo-row">
+            <div class="logo-slot" id="logo-uaslp">LOGO<br>UASLP</div>
+            <div class="login-precarga">
+              <div class="materia" id="login-materia">—</div>
+              <div class="sub" id="login-grupo-sem">—</div>
+            </div>
+            <div class="logo-slot" id="logo-fcq">LOGO<br>FCQ</div>
+          </div>
+          <div class="login-form">
+            <label for="clave-input">Clave de estudiante</label>
+            <input type="text" id="clave-input" inputmode="numeric" placeholder="Ej. 403504" autocomplete="off">
+            <div class="login-help">Escribe tu clave de estudiante (la misma que usas para el pase de lista) y presiona Consultar.</div>
+            <button class="btn btn-primary btn-block" id="btn-consultar">Consultar</button>
+            <div class="error-msg hidden" id="login-error"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== VISTA GENERAL ===================== -->
+      <section id="screen-overview" class="hidden">
+        <div class="ov-header">
+          <div class="ov-student">
+            <h1 id="ov-nombre">—</h1>
+            <div class="carrera" id="ov-carrera">—</div>
+          </div>
+          <div class="ov-stats">
+            <div class="ov-stat">
+              <div class="label">Equipo</div>
+              <div class="value" id="ov-equipo">—</div>
+            </div>
+            <div class="ov-stat">
+              <div class="label">Faltas</div>
+              <div class="value" id="ov-faltas">—</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-label">Parciales — haz clic en uno para ver el detalle</div>
+        <div class="parcial-grid" id="parcial-grid"></div>
+
+        <div class="section-label">Ponderación de la calificación ordinaria</div>
+        <div class="weights-grid" id="weights-grid"></div>
+
+        <div class="card final-card">
+          <div>
+            <div class="fname">Calificación Ordinaria (100%)</div>
+            <div class="fnote">Promedio acumulado a la fecha; se actualiza conforme avanza el semestre.</div>
+          </div>
+          <div class="fval" id="ov-final">—</div>
+        </div>
+
+        <div class="back-row">
+          <button class="btn btn-ghost" id="btn-logout">Cerrar sesión</button>
+        </div>
+      </section>
+
+      <!-- ===================== DETALLE POR PARCIAL ===================== -->
+      <section id="screen-detail" class="hidden">
+        <div class="detail-topline">
+          <div>
+            <h1 id="det-titulo">—</h1>
+            <div class="tema" id="det-tema">—</div>
+          </div>
+          <button class="btn btn-ghost" id="btn-back-overview">← Volver a Vista General</button>
+        </div>
+        <div class="detail-grid" id="detail-grid"></div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer id="footer-note">Portal de Calificaciones · Facultad de Ciencias Químicas · UASLP</footer>
+</div>
+
+<script>
+let DATA = null;
+let currentAlumno = null;
+
+function fmt(n){
+  if (n === null || n === undefined || n === '') return '—';
+  if (typeof n === 'string') return n;
+  return (Math.round(n * 10) / 10).toString();
+}
+
+function parcialSinIniciar(p){
+  if (!p) return true;
+  const nums = [p.examen, p.tareas, p.actividades, p.extra, p.total];
+  return nums.every(v => (v === 0 || v === null || v === undefined));
+}
+
+async function loadData(){
+  const res = await fetch('data.json');
+  if (!res.ok) throw new Error('No se pudo cargar data.json');
+  DATA = await res.json();
+  renderLoginHeader();
+}
+
+function renderLoginHeader(){
+  const c = DATA.curso;
+  document.getElementById('login-materia').textContent = c.materia || '—';
+  document.getElementById('login-grupo-sem').textContent = `Grupo ${c.grupo || '—'} · ${c.semestre || '—'}`;
+  document.getElementById('topbar-meta').innerHTML =
+    `<b>${c.materia || ''}</b><br>Grupo ${c.grupo || ''} · ${c.semestre || ''}`;
+}
+
+function findAlumno(clave){
+  clave = (clave || '').trim().replace(/^a/i,'');
+  return DATA.alumnos.find(a => a.clave === clave);
+}
+
+function showScreen(id){
+  ['screen-login','screen-overview','screen-detail'].forEach(s=>{
+    document.getElementById(s).classList.toggle('hidden', s !== id);
+  });
+}
+
+document.getElementById('btn-consultar').addEventListener('click', () => {
+  const val = document.getElementById('clave-input').value;
+  const errorEl = document.getElementById('login-error');
+  const alumno = findAlumno(val);
+  if (!alumno){
+    errorEl.textContent = 'No encontramos esa clave de estudiante. Verifica e intenta de nuevo.';
+    errorEl.classList.remove('hidden');
+    return;
+  }
+  errorEl.classList.add('hidden');
+  currentAlumno = alumno;
+  renderOverview();
+  showScreen('screen-overview');
+});
+
+document.getElementById('clave-input').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') document.getElementById('btn-consultar').click();
+});
+
+document.getElementById('btn-logout').addEventListener('click', () => {
+  currentAlumno = null;
+  document.getElementById('clave-input').value = '';
+  showScreen('screen-login');
+});
+
+document.getElementById('btn-back-overview').addEventListener('click', () => {
+  renderOverview();
+  showScreen('screen-overview');
+});
+
+function renderOverview(){
+  const a = currentAlumno;
+  document.getElementById('ov-nombre').textContent = a.nombre || '—';
+  document.getElementById('ov-carrera').textContent = a.carrera || '—';
+  document.getElementById('ov-equipo').textContent = (a.equipo === null || a.equipo === undefined) ? '—' : a.equipo;
+  document.getElementById('ov-faltas').textContent = `${fmt(a.faltas)} / ${a.totalSesiones}`;
+  if (a.faltas && a.totalSesiones && (a.faltas / a.totalSesiones) > 0.15){
+    document.getElementById('ov-faltas').classList.add('warn');
+  }
+
+  const grid = document.getElementById('parcial-grid');
+  grid.innerHTML = '';
+  DATA.parciales.forEach(p => {
+    const pd = a.parciales[String(p.numero)];
+    const sinIniciar = parcialSinIniciar(pd);
+    const box = document.createElement('div');
+    box.className = 'card parcial-box';
+    box.innerHTML = `
+      <div class="pnum">Parcial ${p.numero}</div>
+      <div class="pval ${sinIniciar ? 'pending' : ''}">${sinIniciar ? 'Pendiente' : fmt(pd.total)}</div>
+      <div class="ptema">${p.tema}</div>
+    `;
+    box.addEventListener('click', () => {
+      renderDetail(p.numero);
+      showScreen('screen-detail');
+    });
+    grid.appendChild(box);
+  });
+
+  const weights = document.getElementById('weights-grid');
+  weights.innerHTML = '';
+  const w = DATA.ponderacionFinal;
+  const items = [
+    {name:'Parciales', pct:w.parciales, val: a.promedioParciales},
+    {name:'Laboratorio', pct:w.laboratorio, val: a.laboratorio},
+    {name:'Proyecto', pct:w.proyecto, val: null},
+  ].filter(it => it.pct && it.pct > 0);
+  items.forEach(it => {
+    const el = document.createElement('div');
+    el.className = 'card weight-box';
+    el.innerHTML = `
+      <div>
+        <div class="wname">${it.name}</div>
+        <div class="wpct">${it.pct}% de la calificación final</div>
+      </div>
+      <div class="wval">${fmt(it.val)}</div>
+    `;
+    weights.appendChild(el);
+  });
+
+  document.getElementById('ov-final').textContent = fmt(a.calificacionFinal);
+}
+
+function examenSubitems(p, pd){
+  // Parcial with split Teoría/Problemas has 2 examenLabels; others have 1
+  if (p.examenLabels.length > 1){
+    return p.examenLabels.map((label, i) => ({ nombre: label, valor: pd.examenDetalle[i] }));
+  }
+  return null;
+}
+
+function renderDetail(numero){
+  const p = DATA.parciales.find(pp => pp.numero === numero);
+  const a = currentAlumno;
+  const pd = a.parciales[String(numero)];
+  const sinIniciar = parcialSinIniciar(pd);
+
+  document.getElementById('det-titulo').textContent = `Parcial ${numero}`;
+  document.getElementById('det-tema').textContent = p.tema;
+
+  const grid = document.getElementById('detail-grid');
+  grid.innerHTML = '';
+
+  const subExamen = examenSubitems(p, pd);
+
+  const boxes = [
+    {
+      name:'Examen', pct:p.pesoExamen, val: sinIniciar ? null : pd.examen,
+      sub: subExamen ? subExamen.map(s => ({nombre:s.nombre, valor:s.valor})) : null,
+      subType:'plain'
+    },
+    {
+      name:'Actividades', pct:p.pesoActividades, val: sinIniciar ? null : pd.actividades,
+      items: p.actividadesLabels.map((l,i)=>({nombre:l, valor:pd.actividadesDetalle[i]}))
+    },
+    {
+      name:'Tareas', pct:p.pesoTareas, val: sinIniciar ? null : pd.tareas,
+      items: p.tareasLabels.map((l,i)=>({nombre:l, valor:pd.tareasDetalle[i]}))
+    },
+    {
+      name:'Extras', pct:p.pesoExtra, pctPrefix:'±', val: sinIniciar ? null : pd.extra,
+    },
+  ];
+
+  boxes.forEach((b, idx) => {
+    const box = document.createElement('div');
+    box.className = 'card detail-box';
+    const pctLabel = b.pct ? `${b.pctPrefix || ''}${b.pct}%` : '';
+    let inner = `
+      <div class="dname">${b.name}</div>
+      <div class="dpct">${pctLabel}</div>
+      <div class="dval ${b.val === null ? 'pending' : ''}">${b.val === null ? 'Pendiente' : fmt(b.val)}</div>
+    `;
+    box.innerHTML = inner;
+
+    if (b.sub && b.sub.length){
+      const subWrap = document.createElement('div');
+      subWrap.className = 'subexam-list';
+      subWrap.innerHTML = b.sub.map(s => `
+        <div class="row"><span class="n">${s.nombre}</span><span class="v">${fmt(s.valor)}</span></div>
+      `).join('');
+      box.appendChild(subWrap);
+    }
+
+    if (b.items && b.items.length){
+      const toggleId = `toggle-${idx}`;
+      const listId = `list-${idx}`;
+      const toggle = document.createElement('button');
+      toggle.className = 'expand-toggle';
+      toggle.innerHTML = `<span class="chev">▸</span> Ver desglose`;
+      const list = document.createElement('ul');
+      list.className = 'expand-list';
+      list.innerHTML = b.items.map(it => `
+        <li><span class="iname">${it.nombre}</span><span class="ival">${fmt(it.valor)}</span></li>
+      `).join('');
+      toggle.addEventListener('click', () => {
+        toggle.classList.toggle('open');
+        list.classList.toggle('open');
+        toggle.innerHTML = `<span class="chev">▸</span> ${list.classList.contains('open') ? 'Ocultar desglose' : 'Ver desglose'}`;
+      });
+      box.appendChild(toggle);
+      box.appendChild(list);
+    }
+
+    grid.appendChild(box);
+  });
+}
+
+loadData().catch(err => {
+  document.getElementById('login-error').textContent =
+    'No se pudieron cargar los datos (data.json). Si abriste este archivo directamente por doble clic, ábrelo desde un servidor web en su lugar.';
+  document.getElementById('login-error').classList.remove('hidden');
+  console.error(err);
+});
+</script>
+</body>
+</html>
