@@ -1,1 +1,4840 @@
-{"curso":{"materia":"Termodinámica I","grupo":"TD1 - 1274-01","semestre":"TDI/AgDic26"},"ponderacionFinal":{"parciales":90,"laboratorio":10,"proyecto":0},"parciales":[{"numero":1,"tema":"Conocimientos Previos","pesoExamen":70,"pesoTareas":10,"pesoActividades":20,"pesoExtra":15,"tareasLabels":["T1_1","T1_2","T1_3","T1_4"],"actividadesLabels":["AC1_1","AC1_2","AC1_3","AC1_4","AC1_5","AC1_6"]},{"numero":2,"tema":"Conceptos básicos... / Comportamiento volumétrico...","pesoExamen":60,"pesoTareas":10,"pesoActividades":30,"pesoExtra":15,"tareasLabels":["T2_1","T2_2","T2_3","T2_4"],"actividadesLabels":["AC2_1","AC2_2","AC2_3","AC2_4","AC2_5","AC2_6"]},{"numero":3,"tema":"Primera ley de la termodinámica","pesoExamen":60,"pesoTareas":10,"pesoActividades":30,"pesoExtra":15,"tareasLabels":["T3_1","T3_2","T3_3","T3_4"],"actividadesLabels":["AC3_1","AC3_2","AC3_3","AC3_4","AC3_5","AC3_6"]},{"numero":4,"tema":"Segunda ley de la termodinámica","pesoExamen":55,"pesoTareas":10,"pesoActividades":35,"pesoExtra":15,"tareasLabels":["T4_1","T4_2","T4_3","T4_4"],"actividadesLabels":["AC4_1","AC4_2","AC4_3","AC4_4","AC4_5","AC4_6"]},{"numero":5,"tema":"Ciclos de potencia y refrigeración","pesoExamen":50,"pesoTareas":20,"pesoActividades":30,"pesoExtra":15,"tareasLabels":["T5_1","T5_2","T5_3","T5_4"],"actividadesLabels":["AC5_1","AC5_2","AC5_3","AC5_4","AC5_5","AC5_6"]}],"totalSesiones":56,"alumnos":[{"clave":"403504","nombre":"ANDRADE SUAREZ MARIA ABRIL","nombreCorto":"Abril","carrera":"IBP","equipo":"E8","faltas":"1","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"57.4033333333333","examen":"34.02","tareas":"7.38333333333333","actividades":"16","extra":"0","asistencia":"100"},"2":{"total":"10","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"92.8571428571429"},"3":{"total":"7.5","examen":"0","tareas":"2.5","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"397268","nombre":"AVALOS CAMPOS MILDRED EUNICE","nombreCorto":"Miri","carrera":"IQ","equipo":"E4","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"87.74","examen":"61.74","tareas":"10","actividades":"16","extra":"0","asistencia":"100"},"2":{"total":"14","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"100"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"395244","nombre":"BADILLO RODRIGUEZ SAMUEL","nombreCorto":"Samuel/Sam","carrera":"IQ","equipo":"E13","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"71.18","examen":"44.38","tareas":"10","actividades":"16.8","extra":"0","asistencia":"100"},"2":{"total":"10.46","examen":"0","tareas":"0","actividades":"28.2","extra":"0","asistencia":"100"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"369908","nombre":"BEAR GUTIERREZ LUISA VALERIA","nombreCorto":"Vale","carrera":"IIA","equipo":"E5","faltas":"3","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"79.4","examen":"61.6","tareas":"5","actividades":"12.8","extra":"0","asistencia":"85.7142857142857"},"2":{"total":"6.6","examen":"0","tareas":"0","actividades":"12","extra":"0","asistencia":"85.7142857142857"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"383083","nombre":"BRAVO BRAVO MILAGROS","nombreCorto":"Milagros","carrera":"IIA","equipo":"E5","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"52.3466666666667","examen":"35.98","tareas":"7.16666666666667","actividades":"9.2","extra":"0","asistencia":"100"},"2":{"total":"11","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"100"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"348740","nombre":"BRAVO ZAVALA WENDY XIMENA","nombreCorto":"Wendy","carrera":"IA","equipo":"E8","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"17.7","examen":"4.2","tareas":"5.5","actividades":"8","extra":"0","asistencia":"100"},"2":{"total":"8.5","examen":"0","tareas":"0","actividades":"25","extra":"0","asistencia":"100"},"3":{"total":"6.5","examen":"0","tareas":"0","actividades":"5","extra":"1.5","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"400769","nombre":"CARRANCO ORTA SOFIA","nombreCorto":"Sofi","carrera":"IBP","equipo":"E1","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"86.1333333333333","examen":"57.75","tareas":"9.58333333333333","actividades":"16.8","extra":"2","asistencia":"100"},"2":{"total":"13","examen":"0","tareas":"0","actividades":"30","extra":"2","asistencia":"100"},"3":{"total":"7","examen":"0","tareas":"0","actividades":"5","extra":"2","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"378635","nombre":"DEL RIO BAÑUELOS AMELIE","nombreCorto":"Amelie","carrera":"IQ","equipo":"E14","faltas":"2","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"40.2933333333333","examen":"25.76","tareas":"3.33333333333333","actividades":"11.2","extra":"0","asistencia":"100"},"2":{"total":"10","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"85.7142857142857"},"3":{"total":"5","examen":"0","tareas":"0","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"396153","nombre":"GALLEGOS COUTIÑO SARA ATENEA","nombreCorto":"Sara","carrera":"IQ","equipo":"E11","faltas":"2","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"34.26","examen":"14.56","tareas":"4.5","actividades":"15.2","extra":"0","asistencia":"85.7142857142857"},"2":{"total":"6.4","examen":"0","tareas":"0","actividades":"18","extra":"0","asistencia":"92.8571428571429"},"3":{"total":"5","examen":"0","tareas":"0","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"385913","nombre":"GARCIA ZARATE ARLET ALEJANDRA","nombreCorto":"arlet","carrera":"IQ","equipo":"E7","faltas":"1","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"48.15","examen":"24.85","tareas":"8.5","actividades":"14.8","extra":"0","asistencia":"85.7142857142857"},"2":{"total":"10","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"100"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"386091","nombre":"HERNANDEZ SALAZAR ALONDRA","nombreCorto":"Alondra ","carrera":"IIA","equipo":"E5","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"67.89","examen":"41.09","tareas":"10","actividades":"16.8","extra":"0","asistencia":"100"},"2":{"total":"13","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"100"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"370879","nombre":"HERRERA LASSO CUADRA JOSE","nombreCorto":"Jose","carrera":"IBP","equipo":"E6","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"38.42","examen":"18.62","tareas":"5.8","actividades":"14","extra":"0","asistencia":"100"},"2":{"total":"8.5","examen":"0","tareas":"0","actividades":"25","extra":"0","asistencia":"100"},"3":{"total":"5","examen":"0","tareas":"0","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"403291","nombre":"IBARRA BUENO AARON","nombreCorto":"Aaron","carrera":"IQ","equipo":"E9","faltas":"3","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"45.7666666666667","examen":"28.7","tareas":"6.66666666666667","actividades":"10.4","extra":"0","asistencia":"85.7142857142857"},"2":{"total":"9.46","examen":"0","tareas":"0","actividades":"28.2","extra":"0","asistencia":"85.7142857142857"},"3":{"total":"5","examen":"0","tareas":"0","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"397966","nombre":"LARA MARTINEZ FERNANDO IRAD","nombreCorto":"Irad","carrera":"IQ","equipo":"E13","faltas":"1","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"66.5933333333333","examen":"43.26","tareas":"7.33333333333333","actividades":"16","extra":"0","asistencia":"100"},"2":{"total":"10","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"92.8571428571429"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"382390","nombre":"LINARES CAMACHO PAOLA SARELY","nombreCorto":"Paola","carrera":"IQ","equipo":"E4","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"81.5866666666667","examen":"66.92","tareas":"6.66666666666667","actividades":"8","extra":"0","asistencia":"100"},"2":{"total":"10","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"100"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"380967","nombre":"LLANAS HERNANDEZ ABRAHAM ISAI","nombreCorto":"Abraham","carrera":"IBP","equipo":"E2","faltas":"1","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"89.7333333333333","examen":"61.6","tareas":"9.33333333333333","actividades":"16.8","extra":"2","asistencia":"100"},"2":{"total":"6.4","examen":"0","tareas":"0","actividades":"18","extra":"2","asistencia":"92.8571428571429"},"3":{"total":"5","examen":"0","tareas":"0","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"402581","nombre":"MARTINEZ CARDENAS EVELYN CRISTAL","nombreCorto":"Cristal","carrera":"IBP","equipo":"E1","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"52.5166666666667","examen":"29.05","tareas":"6.66666666666667","actividades":"16.8","extra":"0","asistencia":"100"},"2":{"total":"10.2","examen":"0","tareas":"0","actividades":"24","extra":"0","asistencia":"100"},"3":{"total":"5.5","examen":"0","tareas":"0","actividades":"5","extra":"0.5","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"352324","nombre":"MARTINEZ GARCIA KIMBERLY ITZEL","nombreCorto":"Kimberly","carrera":"IQ","equipo":"E12","faltas":"1","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"79.3366666666667","examen":"50.47","tareas":"9.66666666666667","actividades":"19.2","extra":"0","asistencia":"85.7142857142857"},"2":{"total":"6.4","examen":"0","tareas":"0","actividades":"18","extra":"0","asistencia":"100"},"3":{"total":"5","examen":"0","tareas":"0","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"383074","nombre":"ORTIZ FLORES CHRISTOPHER IVAN","nombreCorto":"Christo","carrera":"IBP","equipo":"E6","faltas":"1","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"68.82","examen":"47.32","tareas":"5.9","actividades":"15.6","extra":"0","asistencia":"100"},"2":{"total":"8.2","examen":"0","tareas":"0","actividades":"24","extra":"0","asistencia":"92.8571428571429"},"3":{"total":"5","examen":"0","tareas":"0","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"379137","nombre":"PAREDON ESTRADA SAMANTHA DOLORES","nombreCorto":"Sam o Sammy ","carrera":"IQ","equipo":"E10","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"39.1333333333333","examen":"16.8","tareas":"6.33333333333333","actividades":"16","extra":"0","asistencia":"100"},"2":{"total":"10","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"100"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"396178","nombre":"PERALTA HERNANDEZ DAVID EMILIANO","nombreCorto":"OSO","carrera":"IQ","equipo":"E11","faltas":"1","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"62.2933333333333","examen":"43.26","tareas":"4.23333333333333","actividades":"14.8","extra":"0","asistencia":"100"},"2":{"total":"5.5","examen":"0","tareas":"0","actividades":"15","extra":"0","asistencia":"92.8571428571429"},"3":{"total":"5","examen":"0","tareas":"0","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"402681","nombre":"RAMIREZ GUERRERO PAULINA JUDITH","nombreCorto":"Judith","carrera":"IBP","equipo":"E12","faltas":"3","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"53.5766666666667","examen":"35.21","tareas":"7.16666666666667","actividades":"11.2","extra":"0","asistencia":"85.7142857142857"},"2":{"total":"6.6","examen":"0","tareas":"0","actividades":"12","extra":"0","asistencia":"85.7142857142857"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"383831","nombre":"RICO MORENO ARELI LIZBETH","nombreCorto":"Areli","carrera":"IIA","equipo":"E12","faltas":"1","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"41.85","examen":"24.85","tareas":"5","actividades":"12","extra":"0","asistencia":"100"},"2":{"total":"9.82","examen":"0","tareas":"0","actividades":"29.4","extra":"0","asistencia":"92.8571428571429"},"3":{"total":"4","examen":"0","tareas":"0","actividades":"5","extra":"-1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"385755","nombre":"RIVERA RIVERA SANJUANA GUADALUPE","nombreCorto":"Rivera","carrera":"IQ","equipo":"E7","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"54.9666666666667","examen":"37.1","tareas":"6.66666666666667","actividades":"11.2","extra":"0","asistencia":"100"},"2":{"total":"9.5","examen":"0","tareas":"0","actividades":"25","extra":"0","asistencia":"100"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"401742","nombre":"ROBLEDO DELGADO DIEGO EMILIO","nombreCorto":"Robledo","carrera":"IQ","equipo":"E10","faltas":"2","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"65.7933333333333","examen":"47.46","tareas":"6.33333333333333","actividades":"12","extra":"0","asistencia":"100"},"2":{"total":"10","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"85.7142857142857"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"387619","nombre":"ROMERO MARTINEZ ALEJANDRA MONSERRAT","nombreCorto":"Alejandra ","carrera":"IQ","equipo":"E14","faltas":"1","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"31.9833333333333","examen":"16.45","tareas":"6.33333333333333","actividades":"9.2","extra":"0","asistencia":"100"},"2":{"total":"12","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"92.8571428571429"},"3":{"total":"5","examen":"0","tareas":"0","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"359114","nombre":"RUIZ OVALLE HANIA MARLENE","nombreCorto":"Hania ","carrera":"IQ","equipo":"E13","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"83.55","examen":"57.75","tareas":"9","actividades":"16.8","extra":"0","asistencia":"100"},"2":{"total":"10","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"100"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"380850","nombre":"SANCHEZ GARCIA ANA CAMILA","nombreCorto":"Ana","carrera":"IBP","equipo":"E2","faltas":"2","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"70.61","examen":"57.61","tareas":"5","actividades":"8","extra":"0","asistencia":"100"},"2":{"total":"2.8","examen":"0","tareas":"0","actividades":"6","extra":"0","asistencia":"85.7142857142857"},"3":{"total":"5","examen":"0","tareas":"0","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"379347","nombre":"SOLIS LOPEZ XIMENA","nombreCorto":"Ximena","carrera":"IQ","equipo":"E9","faltas":"3","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"63.2066666666667","examen":"37.24","tareas":"9.16666666666667","actividades":"16.8","extra":"0","asistencia":"100"},"2":{"total":"11.85","examen":"0","tareas":"0","actividades":"29.5","extra":"0","asistencia":"78.5714285714286"},"3":{"total":"5","examen":"0","tareas":"0","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"396439","nombre":"TORRES REYNA DIEGO","nombreCorto":"Diego ","carrera":"IQ","equipo":"E3","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"63.0833333333333","examen":"49.35","tareas":"3.33333333333333","actividades":"10.4","extra":"0","asistencia":"100"},"2":{"total":"10","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"100"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"386394","nombre":"VAZQUEZ HERNANDEZ EVELYN EUNICE","nombreCorto":"Evelyn ","carrera":"IQ","equipo":"E7","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"80.0433333333333","examen":"55.51","tareas":"9.33333333333333","actividades":"15.2","extra":"0","asistencia":"100"},"2":{"total":"10","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"100"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"343800","nombre":"VAZQUEZ MONREAL ARANTXA MARIANA","nombreCorto":"Arantxa","carrera":"IBP","equipo":"E2","faltas":"1","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"48.2333333333333","examen":"32.9","tareas":"3.33333333333333","actividades":"12","extra":"0","asistencia":"100"},"2":{"total":"10","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"92.8571428571429"},"3":{"total":"5","examen":"0","tareas":"0","actividades":"5","extra":"0","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"379456","nombre":"VEGA GARCIA JESUS ALEJANDRO","nombreCorto":"Jesús","carrera":"IQ","equipo":"E3","faltas":"0","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"72.27","examen":"46.27","tareas":"10","actividades":"16","extra":"0","asistencia":"100"},"2":{"total":"10","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"100"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}},{"clave":"370409","nombre":"VENTURA SÁNCHEZ ARACELI","nombreCorto":"Chely ","carrera":"IIA","equipo":"E8","faltas":"2","totalSesiones":56,"laboratorio":null,"calificacionFinal":null,"parciales":{"1":{"total":"51.4333333333333","examen":"37.1","tareas":"6.33333333333333","actividades":"8","extra":"0","asistencia":"100"},"2":{"total":"11","examen":"0","tareas":"0","actividades":"30","extra":"0","asistencia":"85.7142857142857"},"3":{"total":"6","examen":"0","tareas":"0","actividades":"5","extra":"1","asistencia":"100"},"4":{"total":"0","examen":"0","tareas":"0","actividades":"0","extra":"0","asistencia":"100"}}}]}
+{
+  "curso": {
+    "materia": "Termodinámica I",
+    "grupo": "TD1 - 1274-01",
+    "semestre": "TDI/AgDic26"
+  },
+  "ponderacionFinal": {
+    "parciales": 90,
+    "laboratorio": 10,
+    "proyecto": 0
+  },
+  "parciales": [
+    {
+      "numero": 1,
+      "tema": "Conocimientos Previos",
+      "pesoExamen": 70,
+      "pesoTareas": 10,
+      "pesoActividades": 20,
+      "pesoExtra": 15,
+      "tareasLabels": [
+        "T1.1",
+        "T1.2",
+        "T1.3",
+        "T1.4"
+      ],
+      "actividadesLabels": [
+        "A.Clase 1.1",
+        "A.Clase 1.2",
+        "A.Clase 1.3",
+        "A.Clase 1.4",
+        "A.Clase 1.5",
+        "A.Clase 1.6"
+      ],
+      "examenLabels": [
+        "Examen (70%)"
+      ],
+      "nSesiones": 7
+    },
+    {
+      "numero": 2,
+      "tema": "Conceptos básicos de termodinámica / Comportamiento volumétrico de los fluidos (sustancias puras)",
+      "pesoExamen": 60,
+      "pesoTareas": 10,
+      "pesoActividades": 30,
+      "pesoExtra": 15,
+      "tareasLabels": [
+        "T2.1",
+        "T2.2",
+        "T2.3",
+        "T2.4"
+      ],
+      "actividadesLabels": [
+        "A.Clase 2.1",
+        "A.Clase 2.2",
+        "A.Clase 2.3",
+        "A.Clase 2.4",
+        "A.Clase 2.5",
+        "A.Clase 2.6"
+      ],
+      "examenLabels": [
+        "Teoría (40%)",
+        "Problemas (60%)"
+      ],
+      "nSesiones": 15
+    },
+    {
+      "numero": 3,
+      "tema": "Primera ley de la termodinámica",
+      "pesoExamen": 60,
+      "pesoTareas": 10,
+      "pesoActividades": 30,
+      "pesoExtra": 15,
+      "tareasLabels": [
+        "T3.1",
+        "T3.2",
+        "T3.3",
+        "T3.4"
+      ],
+      "actividadesLabels": [
+        "A.Clase 3.1",
+        "A.Clase 3.2",
+        "A.Clase 3.3",
+        "A.Clase 3.4",
+        "A.Clase 3.5",
+        "A.Clase 3.6"
+      ],
+      "examenLabels": [
+        "TEORIA+Prob"
+      ],
+      "nSesiones": 11
+    },
+    {
+      "numero": 4,
+      "tema": "Segunda ley de la termodinámica y balances de entropía",
+      "pesoExamen": 55,
+      "pesoTareas": 15,
+      "pesoActividades": 35,
+      "pesoExtra": 15,
+      "tareasLabels": [
+        "T4.",
+        "T4.2",
+        "T4.3",
+        "T4.4"
+      ],
+      "actividadesLabels": [
+        "A.Clase 4.1",
+        "A.Clase 4.2 ",
+        "A.Clase 4.3",
+        "A.Clase 4.4",
+        "A.Clase 4.5",
+        "A.Clase 4.6"
+      ],
+      "examenLabels": [
+        "TEORIA+Prob"
+      ],
+      "nSesiones": 12
+    },
+    {
+      "numero": 5,
+      "tema": "Ciclos de potencia y refrigeración",
+      "pesoExamen": 50,
+      "pesoTareas": 20,
+      "pesoActividades": 30,
+      "pesoExtra": 15,
+      "tareasLabels": [
+        "T5.1",
+        "T5.2",
+        "T5.3",
+        "T5.4"
+      ],
+      "actividadesLabels": [
+        "A.Clase 5.1",
+        "A.Clase 5.2",
+        "A.Clase 5.3",
+        "A.Clase 5.4",
+        "A.Clase 5.5",
+        "A.Clase 5.6"
+      ],
+      "examenLabels": [
+        "TEORIA+Prob"
+      ],
+      "nSesiones": 11
+    }
+  ],
+  "totalSesiones": 56,
+  "alumnos": [
+    {
+      "clave": "403504",
+      "nombre": "ANDRADE SUAREZ MARIA ABRIL",
+      "nombreCorto": "Abril",
+      "carrera": "IBP",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 11.7,
+      "calificacionFinal": 10.512599999999999,
+      "parciales": {
+        "1": {
+          "total": 57.40333333333333,
+          "examen": 34.019999999999996,
+          "tareas": 7.383333333333333,
+          "actividades": 16,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            34,
+            87.5,
+            100
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            0,
+            100
+          ],
+          "examenDetalle": [
+            48.6
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "397268",
+      "nombre": "AVALOS CAMPOS MILDRED EUNICE",
+      "nombreCorto": "Miri",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 18.5,
+      "calificacionFinal": 16.693199999999997,
+      "parciales": {
+        "1": {
+          "total": 87.74,
+          "examen": 61.739999999999995,
+          "tareas": 10,
+          "actividades": 16,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            100,
+            100
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            0,
+            100
+          ],
+          "examenDetalle": [
+            88.2
+          ]
+        },
+        "2": {
+          "total": 5,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 5,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "395244",
+      "nombre": "BADILLO RODRIGUEZ SAMUEL",
+      "nombreCorto": "Samuel/Sam",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 13.8,
+      "calificacionFinal": 12.452399999999999,
+      "parciales": {
+        "1": {
+          "total": 67.17999999999999,
+          "examen": 44.379999999999995,
+          "tareas": 10,
+          "actividades": 12.8,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            100,
+            100
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            0,
+            20,
+            100
+          ],
+          "examenDetalle": [
+            63.4
+          ]
+        },
+        "2": {
+          "total": 2,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 3.4999999999999996,
+          "extra": 2,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            70,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "369908",
+      "nombre": "BEAR GUTIERREZ LUISA VALERIA",
+      "nombreCorto": "Vale",
+      "carrera": "IIA",
+      "equipo": 0,
+      "faltas": 2,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 16.5,
+      "calificacionFinal": 14.831999999999997,
+      "parciales": {
+        "1": {
+          "total": 79.39999999999999,
+          "examen": 61.599999999999994,
+          "tareas": 5,
+          "actividades": 12.8,
+          "extra": 0,
+          "asistencia": 85.71428571428571,
+          "tareasDetalle": [
+            100,
+            0,
+            50
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            20,
+            0
+          ],
+          "examenDetalle": [
+            88
+          ]
+        },
+        "2": {
+          "total": 3,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 3,
+          "asistencia": 92.85714285714286,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "383083",
+      "nombre": "BRAVO BRAVO MILAGROS",
+      "nombreCorto": "Milagros",
+      "carrera": "IIA",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 10.9,
+      "calificacionFinal": 9.7824,
+      "parciales": {
+        "1": {
+          "total": 52.346666666666664,
+          "examen": 35.98,
+          "tareas": 7.166666666666668,
+          "actividades": 9.200000000000001,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            75,
+            40
+          ],
+          "actividadesDetalle": [
+            70,
+            70,
+            70,
+            20,
+            0
+          ],
+          "examenDetalle": [
+            51.4
+          ]
+        },
+        "2": {
+          "total": 2,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 2,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "348740",
+      "nombre": "BRAVO ZAVALA WENDY XIMENA",
+      "nombreCorto": "Wendy",
+      "carrera": "IA",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 3.7,
+      "calificacionFinal": 3.3659999999999997,
+      "parciales": {
+        "1": {
+          "total": 17.7,
+          "examen": 4.199999999999999,
+          "tareas": 5.5,
+          "actividades": 8,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            75,
+            90,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            80,
+            0,
+            20,
+            0
+          ],
+          "examenDetalle": [
+            6
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "400769",
+      "nombre": "CARRANCO ORTA SOFIA",
+      "nombreCorto": "Sofi",
+      "carrera": "IBP",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 17.8,
+      "calificacionFinal": 16.043999999999997,
+      "parciales": {
+        "1": {
+          "total": 86.13333333333333,
+          "examen": 57.74999999999999,
+          "tareas": 9.583333333333334,
+          "actividades": 16.8,
+          "extra": 2,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            87.5,
+            100
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            20,
+            100
+          ],
+          "examenDetalle": [
+            82.5
+          ]
+        },
+        "2": {
+          "total": 3,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 3,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "378635",
+      "nombre": "DEL RIO BAÑUELOS AMELIE",
+      "nombreCorto": "Amelie",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 8.3,
+      "calificacionFinal": 7.4328,
+      "parciales": {
+        "1": {
+          "total": 40.29333333333334,
+          "examen": 25.759999999999998,
+          "tareas": 3.333333333333334,
+          "actividades": 11.200000000000001,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            80,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            36.8
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "396153",
+      "nombre": "GALLEGOS COUTIÑO SARA ATENEA",
+      "nombreCorto": "Sara",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 2,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 7.1,
+      "calificacionFinal": 6.3468,
+      "parciales": {
+        "1": {
+          "total": 34.26,
+          "examen": 14.559999999999999,
+          "tareas": 4.5,
+          "actividades": 15.200000000000001,
+          "extra": 0,
+          "asistencia": 85.71428571428571,
+          "tareasDetalle": [
+            75,
+            0,
+            60
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            60,
+            20,
+            100
+          ],
+          "examenDetalle": [
+            20.8
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 1,
+          "asistencia": 92.85714285714286,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "385913",
+      "nombre": "GARCIA ZARATE ARLET ALEJANDRA",
+      "nombreCorto": "arlet",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 1,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 9.8,
+      "calificacionFinal": 8.847,
+      "parciales": {
+        "1": {
+          "total": 48.14999999999999,
+          "examen": 24.849999999999998,
+          "tareas": 8.5,
+          "actividades": 14.8,
+          "extra": 0,
+          "asistencia": 85.71428571428571,
+          "tareasDetalle": [
+            100,
+            100,
+            55
+          ],
+          "actividadesDetalle": [
+            100,
+            80,
+            70,
+            20,
+            100
+          ],
+          "examenDetalle": [
+            35.5
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "386091",
+      "nombre": "HERNANDEZ SALAZAR ALONDRA",
+      "nombreCorto": "Alondra",
+      "carrera": "IIA",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 14.4,
+      "calificacionFinal": 12.9402,
+      "parciales": {
+        "1": {
+          "total": 67.89,
+          "examen": 41.089999999999996,
+          "tareas": 10,
+          "actividades": 16.8,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            100,
+            100
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            20,
+            100
+          ],
+          "examenDetalle": [
+            58.7
+          ]
+        },
+        "2": {
+          "total": 4,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 4,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "370879",
+      "nombre": "HERRERA LASSO CUADRA JOSE",
+      "nombreCorto": "Jose",
+      "carrera": "IBP",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 7.9,
+      "calificacionFinal": 7.0956,
+      "parciales": {
+        "1": {
+          "total": 38.42,
+          "examen": 18.62,
+          "tareas": 5.800000000000001,
+          "actividades": 14,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            34,
+            90,
+            50
+          ],
+          "actividadesDetalle": [
+            50,
+            70,
+            70,
+            60,
+            100
+          ],
+          "examenDetalle": [
+            26.6
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "403291",
+      "nombre": "IBARRA BUENO AARON",
+      "nombreCorto": "Aaron",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 1,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 9.4,
+      "calificacionFinal": 8.418000000000001,
+      "parciales": {
+        "1": {
+          "total": 45.766666666666666,
+          "examen": 28.7,
+          "tareas": 6.666666666666668,
+          "actividades": 10.4,
+          "extra": 0,
+          "asistencia": 85.71428571428571,
+          "tareasDetalle": [
+            100,
+            100,
+            0
+          ],
+          "actividadesDetalle": [
+            80,
+            100,
+            80,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            41
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 3.4999999999999996,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            70,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "397966",
+      "nombre": "LARA MARTINEZ FERNANDO IRAD",
+      "nombreCorto": "Irad",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 13.5,
+      "calificacionFinal": 12.1668,
+      "parciales": {
+        "1": {
+          "total": 66.59333333333333,
+          "examen": 43.26,
+          "tareas": 7.333333333333333,
+          "actividades": 16,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            70,
+            50
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            0,
+            100
+          ],
+          "examenDetalle": [
+            61.8
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "382390",
+      "nombre": "LINARES CAMACHO PAOLA SARELY",
+      "nombreCorto": "Paola",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 16.5,
+      "calificacionFinal": 14.8656,
+      "parciales": {
+        "1": {
+          "total": 81.58666666666666,
+          "examen": 66.91999999999999,
+          "tareas": 6.666666666666668,
+          "actividades": 8,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            100,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            100,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            95.6
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "380967",
+      "nombre": "LLANAS HERNANDEZ ABRAHAM ISAI",
+      "nombreCorto": "Abraham",
+      "carrera": "IBP",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 18.1,
+      "calificacionFinal": 16.331999999999997,
+      "parciales": {
+        "1": {
+          "total": 89.73333333333332,
+          "examen": 61.599999999999994,
+          "tareas": 9.333333333333334,
+          "actividades": 16.8,
+          "extra": 2,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            100,
+            80
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            20,
+            100
+          ],
+          "examenDetalle": [
+            88
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "402581",
+      "nombre": "MARTINEZ CARDENAS EVELYN CRISTAL",
+      "nombreCorto": "Cristal",
+      "carrera": "IBP",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 10.9,
+      "calificacionFinal": 9.812999999999999,
+      "parciales": {
+        "1": {
+          "total": 52.516666666666666,
+          "examen": 29.049999999999997,
+          "tareas": 6.666666666666668,
+          "actividades": 16.8,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            0,
+            100
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            20,
+            100
+          ],
+          "examenDetalle": [
+            41.5
+          ]
+        },
+        "2": {
+          "total": 2,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 2,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "352324",
+      "nombre": "MARTINEZ GARCIA KIMBERLY ITZEL",
+      "nombreCorto": "Kimberly",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 1,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 16.1,
+      "calificacionFinal": 14.460599999999998,
+      "parciales": {
+        "1": {
+          "total": 79.33666666666666,
+          "examen": 50.46999999999999,
+          "tareas": 9.666666666666668,
+          "actividades": 19.200000000000003,
+          "extra": 0,
+          "asistencia": 85.71428571428571,
+          "tareasDetalle": [
+            100,
+            90,
+            100
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            80,
+            100
+          ],
+          "examenDetalle": [
+            72.1
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "383074",
+      "nombre": "ORTIZ FLORES CHRISTOPHER IVAN",
+      "nombreCorto": "Christo",
+      "carrera": "IBP",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 14.0,
+      "calificacionFinal": 12.567599999999999,
+      "parciales": {
+        "1": {
+          "total": 68.82,
+          "examen": 47.31999999999999,
+          "tareas": 5.9,
+          "actividades": 15.600000000000001,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            67,
+            50,
+            60
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            70,
+            20,
+            100
+          ],
+          "examenDetalle": [
+            67.6
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "379137",
+      "nombre": "PAREDON ESTRADA SAMANTHA DOLORES",
+      "nombreCorto": "Sam o Sammy",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 8.0,
+      "calificacionFinal": 7.224000000000001,
+      "parciales": {
+        "1": {
+          "total": 39.13333333333333,
+          "examen": 16.799999999999997,
+          "tareas": 6.333333333333334,
+          "actividades": 16,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            90,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            0,
+            100
+          ],
+          "examenDetalle": [
+            24
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "396178",
+      "nombre": "PERALTA HERNANDEZ DAVID EMILIANO",
+      "nombreCorto": "OSO",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 1,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 12.7,
+      "calificacionFinal": 11.392800000000001,
+      "parciales": {
+        "1": {
+          "total": 62.29333333333334,
+          "examen": 43.26,
+          "tareas": 4.233333333333333,
+          "actividades": 14.8,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            67,
+            0,
+            60
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            70,
+            100,
+            0
+          ],
+          "examenDetalle": [
+            61.8
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 1,
+          "asistencia": 92.85714285714286,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "402681",
+      "nombre": "RAMIREZ GUERRERO PAULINA JUDITH",
+      "nombreCorto": "Judith",
+      "carrera": "IBP",
+      "equipo": 0,
+      "faltas": 2,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 11.1,
+      "calificacionFinal": 10.0038,
+      "parciales": {
+        "1": {
+          "total": 53.57666666666667,
+          "examen": 35.209999999999994,
+          "tareas": 7.166666666666668,
+          "actividades": 11.200000000000001,
+          "extra": 0,
+          "asistencia": 85.71428571428571,
+          "tareasDetalle": [
+            100,
+            75,
+            40
+          ],
+          "actividadesDetalle": [
+            80,
+            100,
+            100,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            50.3
+          ]
+        },
+        "2": {
+          "total": 2,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 2,
+          "asistencia": 92.85714285714286,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "383831",
+      "nombre": "RICO MORENO ARELI LIZBETH",
+      "nombreCorto": "Areli",
+      "carrera": "IIA",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 8.6,
+      "calificacionFinal": 7.712999999999999,
+      "parciales": {
+        "1": {
+          "total": 41.849999999999994,
+          "examen": 24.849999999999998,
+          "tareas": 5,
+          "actividades": 12,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            50,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            35.5
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 4.5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            90,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "385755",
+      "nombre": "RIVERA RIVERA SANJUANA GUADALUPE",
+      "nombreCorto": "Rivera",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 11.4,
+      "calificacionFinal": 10.254000000000001,
+      "parciales": {
+        "1": {
+          "total": 54.96666666666667,
+          "examen": 37.099999999999994,
+          "tareas": 6.666666666666668,
+          "actividades": 11.200000000000001,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            100,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            80,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            53
+          ]
+        },
+        "2": {
+          "total": 2,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 2,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "401742",
+      "nombre": "ROBLEDO DELGADO DIEGO EMILIO",
+      "nombreCorto": "Robledo",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 1,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 13.4,
+      "calificacionFinal": 12.022799999999998,
+      "parciales": {
+        "1": {
+          "total": 65.79333333333332,
+          "examen": 47.459999999999994,
+          "tareas": 6.333333333333334,
+          "actividades": 12,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            90,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            67.8
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 92.85714285714286,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "387619",
+      "nombre": "ROMERO MARTINEZ ALEJANDRA MONSERRAT",
+      "nombreCorto": "Alejandra",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 7.0,
+      "calificacionFinal": 6.297000000000001,
+      "parciales": {
+        "1": {
+          "total": 31.983333333333334,
+          "examen": 16.45,
+          "tareas": 6.333333333333334,
+          "actividades": 9.200000000000001,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            90,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            80,
+            50,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            23.5
+          ]
+        },
+        "2": {
+          "total": 3,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 3,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "359114",
+      "nombre": "RUIZ OVALLE HANIA MARLENE",
+      "nombreCorto": "Hania",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 16.9,
+      "calificacionFinal": 15.219000000000001,
+      "parciales": {
+        "1": {
+          "total": 83.55,
+          "examen": 57.74999999999999,
+          "tareas": 9,
+          "actividades": 16.8,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            100,
+            70
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            20,
+            100
+          ],
+          "examenDetalle": [
+            82.5
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "380850",
+      "nombre": "SANCHEZ GARCIA ANA CAMILA",
+      "nombreCorto": "Ana",
+      "carrera": "IBP",
+      "equipo": 0,
+      "faltas": 1,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 14.3,
+      "calificacionFinal": 12.889799999999997,
+      "parciales": {
+        "1": {
+          "total": 70.60999999999999,
+          "examen": 57.60999999999999,
+          "tareas": 5,
+          "actividades": 8,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            50,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            82.3
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 1,
+          "asistencia": 92.85714285714286,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "379347",
+      "nombre": "SOLIS LOPEZ XIMENA",
+      "nombreCorto": "Ximena",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 1,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 13.2,
+      "calificacionFinal": 11.917200000000001,
+      "parciales": {
+        "1": {
+          "total": 63.20666666666666,
+          "examen": 37.24,
+          "tareas": 9.166666666666668,
+          "actividades": 16.8,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            75,
+            100
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            20,
+            100
+          ],
+          "examenDetalle": [
+            53.2
+          ]
+        },
+        "2": {
+          "total": 3,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 4.5,
+          "extra": 3,
+          "asistencia": 92.85714285714286,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            90,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "396439",
+      "nombre": "TORRES REYNA DIEGO",
+      "nombreCorto": "Diego",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 12.8,
+      "calificacionFinal": 11.535,
+      "parciales": {
+        "1": {
+          "total": 63.08333333333333,
+          "examen": 49.349999999999994,
+          "tareas": 3.333333333333334,
+          "actividades": 10.4,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            75,
+            25,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            60,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            70.5
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "386394",
+      "nombre": "VAZQUEZ HERNANDEZ EVELYN EUNICE",
+      "nombreCorto": "Evelyn",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 16.2,
+      "calificacionFinal": 14.5878,
+      "parciales": {
+        "1": {
+          "total": 80.04333333333334,
+          "examen": 55.51,
+          "tareas": 9.333333333333334,
+          "actividades": 15.200000000000001,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            80,
+            100
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            80,
+            0,
+            100
+          ],
+          "examenDetalle": [
+            79.3
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "343800",
+      "nombre": "VAZQUEZ MONREAL ARANTXA MARIANA",
+      "nombreCorto": "Arantxa",
+      "carrera": "IBP",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 9.8,
+      "calificacionFinal": 8.862000000000002,
+      "parciales": {
+        "1": {
+          "total": 48.233333333333334,
+          "examen": 32.9,
+          "tareas": 3.333333333333334,
+          "actividades": 12,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            100,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            47
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "379456",
+      "nombre": "VEGA GARCIA JESUS ALEJANDRO",
+      "nombreCorto": "Jesús",
+      "carrera": "IQ",
+      "equipo": 0,
+      "faltas": 0,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 14.7,
+      "calificacionFinal": 13.188600000000001,
+      "parciales": {
+        "1": {
+          "total": 72.27,
+          "examen": 46.269999999999996,
+          "tareas": 10,
+          "actividades": 16,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            100,
+            100
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            80,
+            20,
+            100
+          ],
+          "examenDetalle": [
+            66.1
+          ]
+        },
+        "2": {
+          "total": 1,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 1,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "clave": "370409",
+      "nombre": "VENTURA SÁNCHEZ ARACELI",
+      "nombreCorto": "Chely",
+      "carrera": "IIA",
+      "equipo": 0,
+      "faltas": 1,
+      "totalSesiones": 56,
+      "laboratorio": 0,
+      "promedioParciales": 10.7,
+      "calificacionFinal": 9.617999999999999,
+      "parciales": {
+        "1": {
+          "total": 51.43333333333333,
+          "examen": 37.099999999999994,
+          "tareas": 6.333333333333334,
+          "actividades": 8,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            100,
+            90,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            100,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            53
+          ]
+        },
+        "2": {
+          "total": 2,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 5,
+          "extra": 2,
+          "asistencia": 92.85714285714286,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0,
+            0
+          ]
+        },
+        "3": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "4": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        },
+        "5": {
+          "total": 0,
+          "examen": 0,
+          "tareas": 0,
+          "actividades": 0,
+          "extra": 0,
+          "asistencia": 100,
+          "tareasDetalle": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "actividadesDetalle": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "examenDetalle": [
+            0
+          ]
+        }
+      }
+    }
+  ]
+}
