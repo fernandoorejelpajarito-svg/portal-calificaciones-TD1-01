@@ -336,16 +336,23 @@
 let DATA = null;
 let currentAlumno = null;
 
+function toNum(v){
+  if (v === null || v === undefined || v === '') return null;
+  const n = typeof v === 'number' ? v : parseFloat(v);
+  return isNaN(n) ? null : n;
+}
+
 function fmt(n){
   if (n === null || n === undefined || n === '') return '—';
-  if (typeof n === 'string') return n;
-  return (Math.round(n * 10) / 10).toString();
+  const num = toNum(n);
+  if (num !== null) return (Math.round(num * 10) / 10).toString();
+  return n; // non-numeric string (e.g. a status code) — show as-is
 }
 
 function parcialSinIniciar(p){
   if (!p) return true;
-  const nums = [p.examen, p.tareas, p.actividades, p.extra, p.total];
-  return nums.every(v => (v === 0 || v === null || v === undefined));
+  const nums = [p.examen, p.tareas, p.actividades, p.extra, p.total].map(toNum);
+  return nums.every(v => (v === 0 || v === null));
 }
 
 async function loadData(){
@@ -458,11 +465,20 @@ function renderOverview(){
 }
 
 function examenSubitems(p, pd){
-  // Parcial with split Teoría/Problemas has 2 examenLabels; others have 1
-  if (p.examenLabels.length > 1){
-    return p.examenLabels.map((label, i) => ({ nombre: label, valor: pd.examenDetalle[i] }));
+  // Parcial with split Teoría/Problemas has 2 examenLabels; others have 1.
+  // Tolerate flows that don't (yet) export examenLabels/examenDetalle at all.
+  const labels = p.examenLabels || [];
+  if (labels.length > 1 && pd && Array.isArray(pd.examenDetalle)){
+    return labels.map((label, i) => ({ nombre: label, valor: pd.examenDetalle[i] }));
   }
   return null;
+}
+
+function detailItems(labels, detalle){
+  // Only build an expandable list when we actually have per-item data;
+  // otherwise return null so the box just shows its total, no toggle.
+  if (!labels || !labels.length || !detalle || !Array.isArray(detalle)) return null;
+  return labels.map((l, i) => ({ nombre: l, valor: detalle[i] }));
 }
 
 function renderDetail(numero){
@@ -481,22 +497,23 @@ function renderDetail(numero){
 
   const boxes = [
     {
-      name:'Examen', pct:p.pesoExamen, val: sinIniciar ? null : pd.examen,
+      name:'Examen', pct:p.pesoExamen, val: (sinIniciar || !pd) ? null : pd.examen,
       sub: subExamen ? subExamen.map(s => ({nombre:s.nombre, valor:s.valor})) : null,
       subType:'plain'
     },
     {
-      name:'Actividades', pct:p.pesoActividades, val: sinIniciar ? null : pd.actividades,
-      items: p.actividadesLabels.map((l,i)=>({nombre:l, valor:pd.actividadesDetalle[i]}))
+      name:'Actividades', pct:p.pesoActividades, val: (sinIniciar || !pd) ? null : pd.actividades,
+      items: detailItems(p.actividadesLabels, pd && pd.actividadesDetalle)
     },
     {
-      name:'Tareas', pct:p.pesoTareas, val: sinIniciar ? null : pd.tareas,
-      items: p.tareasLabels.map((l,i)=>({nombre:l, valor:pd.tareasDetalle[i]}))
+      name:'Tareas', pct:p.pesoTareas, val: (sinIniciar || !pd) ? null : pd.tareas,
+      items: detailItems(p.tareasLabels, pd && pd.tareasDetalle)
     },
     {
-      name:'Extras', pct:p.pesoExtra, pctPrefix:'±', val: sinIniciar ? null : pd.extra,
+      name:'Extras', pct:p.pesoExtra, pctPrefix:'±', val: (sinIniciar || !pd) ? null : pd.extra,
     },
   ];
+
 
   boxes.forEach((b, idx) => {
     const box = document.createElement('div');
