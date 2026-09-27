@@ -1,7 +1,5 @@
 name: Actualizar calificaciones
 
-# Se ejecuta sola cada 30 minutos, y también se puede lanzar a mano
-# desde la pestaña "Actions" del repositorio con el botón "Run workflow".
 on:
   schedule:
     - cron: '*/30 * * * *'
@@ -18,14 +16,25 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Descargar data.json actualizado desde SharePoint
-        run: curl -L "https://uaslpedu-my.sharepoint.com/:u:/g/personal/fernando_uaslp_mx/IQC8OLGKT7wlSLDqO2ZrWaZEASIyLdI-gMWL7DVvVBMFjv4?e=04Nl8Y&download=1" -o data.json.nuevo
+        run: |
+          curl -L \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" \
+            -w "\nHTTP_STATUS:%{http_code}\n" \
+            "https://uaslpedu-my.sharepoint.com/:u:/g/personal/fernando_uaslp_mx/IQC8OLGKT7wlSLDqO2ZrWaZEASIyLdI-gMWL7DVvVBMFjv4?e=04Nl8Y&download=1" \
+            -o data.json.nuevo
+
+      - name: Mostrar diagnóstico de lo que se descargó
+        run: |
+          echo "Tamaño del archivo descargado: $(wc -c < data.json.nuevo) bytes"
+          echo "--- primeros 500 caracteres recibidos ---"
+          head -c 500 data.json.nuevo
+          echo ""
+          echo "--- fin de la muestra ---"
 
       - name: Verificar que la descarga sea JSON válido antes de reemplazar
         run: |
           if ! head -c 1 data.json.nuevo | grep -q '{'; then
-            echo "El archivo descargado no parece ser JSON válido (¿la liga pide iniciar sesión?). Abortando sin tocar data.json."
-            echo "--- primeras líneas recibidas ---"
-            head -c 500 data.json.nuevo
+            echo "El archivo descargado no parece ser JSON válido. Abortando sin tocar data.json."
             exit 1
           fi
           mv data.json.nuevo data.json
