@@ -1,0 +1,39 @@
+name: Actualizar calificaciones
+
+# Se ejecuta sola cada 30 minutos, y también se puede lanzar a mano
+# desde la pestaña "Actions" del repositorio con el botón "Run workflow".
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Descargar data.json actualizado desde SharePoint
+        run: curl -L "https://uaslpedu-my.sharepoint.com/:u:/g/personal/fernando_uaslp_mx/IQC8OLGKT7wlSLDqO2ZrWaZEASIyLdI-gMWL7DVvVBMFjv4?e=04Nl8Y&download=1" -o data.json.nuevo
+
+      - name: Verificar que la descarga sea JSON válido antes de reemplazar
+        run: |
+          if ! head -c 1 data.json.nuevo | grep -q '{'; then
+            echo "El archivo descargado no parece ser JSON válido (¿la liga pide iniciar sesión?). Abortando sin tocar data.json."
+            echo "--- primeras líneas recibidas ---"
+            head -c 500 data.json.nuevo
+            exit 1
+          fi
+          mv data.json.nuevo data.json
+
+      - name: Subir el cambio a GitHub, solo si data.json realmente cambió
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet || git commit -m "Actualizar calificaciones automáticamente"
+          git push
