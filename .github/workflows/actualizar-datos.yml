@@ -19,17 +19,13 @@ jobs:
         run: |
           curl -L \
             -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" \
-            -w "\nHTTP_STATUS:%{http_code}\n" \
             "https://uaslpedu-my.sharepoint.com/:u:/g/personal/fernando_uaslp_mx/IQC8OLGKT7wlSLDqO2ZrWaZEASIyLdI-gMWL7DVvVBMFjv4?e=04Nl8Y&download=1" \
             -o data.json.nuevo
 
-      - name: Mostrar diagnóstico de lo que se descargó
+      - name: Buscar una URL de redirección escondida en la página
         run: |
-          echo "Tamaño del archivo descargado: $(wc -c < data.json.nuevo) bytes"
-          echo "--- primeros 500 caracteres recibidos ---"
-          head -c 500 data.json.nuevo
-          echo ""
-          echo "--- fin de la muestra ---"
+          echo "--- Cualquier URL encontrada dentro de la respuesta ---"
+          grep -oE 'https?://[^"'"'"' <>]+' data.json.nuevo | sort -u | head -20 || echo "(no se encontró ninguna URL)"
 
       - name: Verificar que la descarga sea JSON válido antes de reemplazar
         run: |
